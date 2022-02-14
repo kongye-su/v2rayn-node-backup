@@ -1,0 +1,270 @@
+{
+  "inbound": [
+    {
+      "localPort": 10808,
+      "protocol": "socks",
+      "udpEnabled": true,
+      "sniffingEnabled": true
+    }
+  ],
+  "logEnabled": false,
+  "loglevel": "warning",
+  "index": -1,
+  "vmess": [],
+  "muxEnabled": false,
+  "kcpItem": {
+    "mtu": 1350,
+    "tti": 50,
+    "uplinkCapacity": 12,
+    "downlinkCapacity": 100,
+    "congestion": false,
+    "readBufferSize": 2,
+    "writeBufferSize": 2
+  },
+  "sysProxyType": 0,
+  "speedTestUrl": "http://cachefly.cachefly.net/10mb.test",
+  "speedPingTestUrl": "https://www.google.com/generate_204",
+  "allowLANConn": false,
+  "enableStatistics": false,
+  "keepOlderDedupl": false,
+  "statisticsFreshRate": 2000,
+  "remoteDNS": null,
+  "defAllowInsecure": false,
+  "subItem": [
+    {
+      "id": "93656b85-5111-4fea-af05-7bbf6a915510",
+      "remarks": "freeq 稳定",
+      "url": "https://raw.fastgit.org/freefq/free/master/v2",
+      "enabled": false
+    },
+    {
+      "id": "f6cbe5a3-e264-4492-a308-59f2c5684ba9",
+      "remarks": "bulink.xyz 每月5G免费节点 稳定",
+      "url": "https://bulink.me/sub/pktrt/vm",
+      "enabled": false
+    },
+    {
+      "id": "ffff3e6b-7a4c-4472-8184-dd672e549791",
+      "remarks": "node.umelabs.dev 无用",
+      "url": "https://raw.fastgit.org/umelabs/node.umelabs.dev/master/Subscribe/v2ray.md",
+      "enabled": false
+    },
+    {
+      "id": "d284eb80-d124-43c4-811b-267721bbefd5",
+      "remarks": "liesauer 可用",
+      "url": "https://jiang.netlify.app/",
+      "enabled": false
+    },
+    {
+      "id": "bd0490ea-3bc8-400a-bc3f-0c1eb1185bb8",
+      "remarks": "eycorsican 无用",
+      "url": "https://raw.fastgit.org/eycorsican/rule-sets/master/kitsunebi_sub",
+      "enabled": false
+    },
+    {
+      "id": "ff951790-9e96-4842-9512-6515e7b1c93b",
+      "remarks": "free_proxy_ss 可用",
+      "url": "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free",
+      "enabled": false
+    },
+    {
+      "id": "3af18ee1-1dc0-4cd0-aee9-19b8e349866c",
+      "remarks": "Free-Node-Merge 可用",
+      "url": "https://raw.fastgit.org/codingbox/Free-Node-Merge/main/node.txt",
+      "enabled": false
+    },
+    {
+      "id": "aae302b1-d696-4733-a2d1-69124f2ec6bc",
+      "remarks": "ssrsub v2ray 可用",
+      "url": "https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray",
+      "enabled": false
+    },
+    {
+      "id": "e95d6609-663b-4a6c-8879-bcd20927f8bd",
+      "remarks": "ssrsub trojan 无用",
+      "url": "https://raw.githubusercontent.com/ssrsub/ssr/master/trojan",
+      "enabled": false
+    },
+    {
+      "id": "76bab50d-913d-4112-8b91-98b1c8b453f7",
+      "remarks": "ssrsub ss-sub 可用",
+      "url": "https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub",
+      "enabled": false
+    },
+    {
+      "id": "83416026-da22-4059-a86a-dd9bc0916dbe",
+      "remarks": "ssrsub ssrsub 可用",
+      "url": "https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub",
+      "enabled": false
+    },
+    {
+      "id": "b01f069c-9f63-4230-bc71-079e9151bba8",
+      "remarks": "colatiger 可用",
+      "url": "https://raw.fastgit.org/colatiger/v2ray-nodes/master/proxy.md",
+      "enabled": true
+    },
+    {
+      "id": "03b95004-b237-48a2-b235-51d4ca719b55",
+      "remarks": "openit 可用 较多无用节点",
+      "url": "https://cdn.jsdelivr.net/gh/git-yusteven/openit/long",
+      "enabled": false
+    },
+    {
+      "id": "19a7b8c0-f26c-4580-99c2-f106a3edf41d",
+      "remarks": "jackusr089 可用",
+      "url": "https://raw.githubusercontent.com/JACKUSR2089/v2ray-subscribed/master/2022-2-7",
+      "enabled": false
+    },
+    {
+      "id": "11ef093b-a27a-4099-9522-309d6bd6d886",
+      "remarks": "kingfu.cf 可用",
+      "url": "https://free.kingfu.cf/vmess/sub",
+      "enabled": false
+    }
+  ],
+  "uiItem": {
+    "mainSize": "1287, 788",
+    "mainLvColWidth": {
+      "def": 30,
+      "configType": 139,
+      "remarks": 568,
+      "address": 159,
+      "port": 74,
+      "security": 205,
+      "network": 51,
+      "subRemarks": 86,
+      "testResult": 161
+    }
+  },
+  "domainStrategy": "IPIfNonMatch",
+  "domainMatcher": "linear",
+  "routingIndex": 1,
+  "routings": [
+    {
+      "remarks": "全局(Global)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": null,
+          "protocol": null
+        }
+      ],
+      "enabled": true,
+      "locked": false
+    },
+    {
+      "remarks": "绕过大陆(Whitelist)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "domain:example-example.com",
+            "domain:example-example2.com"
+          ],
+          "protocol": null
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "geosite:cn"
+          ],
+          "protocol": null
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": [
+            "geoip:private",
+            "geoip:cn"
+          ],
+          "domain": null,
+          "protocol": null
+        },
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": null,
+          "protocol": null
+        }
+      ],
+      "enabled": true,
+      "locked": false
+    },
+    {
+      "remarks": "locked",
+      "url": "https://raw.fastgit.org/gfwlist/gfwlist/master/gfwlist.txt",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": [],
+          "domain": [
+            "000webhost.com\n030buy.com\n0rz.tw\n1-apple.com.tw\n10.tt\n1000giri.net\n100ke.org\n10beasts.net\n10conditionsoflove.com\n10musume.com\n123rf.com\n12bet.com\n12vpn.com\n12vpn.net\n1337x.to\n138.com\n141hongkong.com\n141jj.com\n141tube.com\n1688.com.au\n173ng.com\n177pic.info\n17t17p.com\n18board.com\n18board.info\n18onlygirls.com\n18p2p.com\n18virginsex.com\n1949er.org\n1984bbs.com\n1984bbs.org\n1989report.hkja.org.hk\n1991way.com\n1998cdp.org\n1bao.org\n1dumb.com\n1e100.net\n1eew.com\n1mobile.com\n1mobile.tw\n1pondo.tv\n2-hand.info\n2000fun.com\n2008xianzhang.info\n2017.hk\n2021hkcharter.com\n2047.name\n2049bbs.xyz\n21andy.com\n21join.com\n21pron.com\n21sextury.com\n228.net.tw\n233abc.com\n24hrs.ca\n24smile.org\n25u.com\n2lipstube.com\n2shared.com\n2waky.com\n3-a.net\n30boxes.com\n315lz.com\n32red.com\n36rain.com\n3a5a.com\n3arabtv.com\n3boys2girls.com\n3d-game.com\n3proxy.ru\n3ren.ca\n3tui.net\n404museum.com\n43110.cf\n466453.com\n4bluestones.biz\n4chan.com\n4dq.com\n4everproxy.com\n4irc.com\n4mydomain.com\n4pu.com\n4rbtv.com\n4shared.com\n4sqi.net\n51.ca\n51jav.org\n51luoben.com\n5278.cc\n5299.tv\n56cun04.jigsy.com\n5aimiku.com\n5i01.com\n5isotoi5.org\n5maodang.com\n63i.com\n64museum.org\n64tianwang.com\n64wiki.com\n66.ca\n666kb.com\n6do.news\n6park.com\n6parkbbs.com\n6parker.com\n6parknews.com\n7capture.com\n7cow.com\n8-d.com\n85cc.net\n85cc.us\n85st.com\n881903.com\n888.com\n888poker.com\n89-64.org\n89.64.charter.constitutionalism.solutions\n8964museum.com\n8news.com.tw\n8z1.net\n9001700.com\n908taiwan.org\n91porn.com\n91vps.club\n92ccav.com\n991.com\n99btgc01.com\n99cn.info\n9bis.com\n9bis.net\n9cache.com\n9gag.com\n9news.com.au\na-normal-day.com\na248.e.akamai.net\na5.com.ru\naamacau.com\nabc.com\nabc.net.au\nabc.pp.ru\nabc.xyz\nabchinese.com\nabclite.net\nabebooks.com\nabematv.akamaized.net\nabitno.linpie.com\nablwang.com\naboluowang.com\nabout.google\naboutgfw.com\nabs.edu\nac.jiruan.net\naccim.org\naccountkit.com\naceros-de-hispania.com\nacevpn.com\nacg18.me\nacgbox.org\nacgkj.com\nacgnx.se\nacmedia365.com\nacmetoy.com\nacnw.com.au\nactfortibet.org\nactimes.com.au\nactivpn.com\naculo.us\nadcex.com\naddictedtocoffee.de\naddyoutube.com\nadelaidebbs.com\nadmin.recaptcha.net\nadmob.com\nadpl.org.hk\nads-twitter.com\nadsense.com\nadult-sex-games.com\nadult.friendfinder.com\nadultfriendfinder.com\nadultkeep.net\nadvanscene.com\nadvertfan.com\nadvertisercommunity.com\nae.hao123.com\nae.org\naenhancers.com\naex.com\naf.mil\nafantibbs.com\nafr.com\nafreecatv.com\nagnesb.fr\nagoogleaday.com\nagro.hk\nai-kan.net\nai-wen.net\nai.binwang.me\nai.google\naiph.net\nairasia.com\nairconsole.com\nairvpn.org\naisex.com\naiss.anws.gov.tw\nait.org.tw\naiweiwei.com\naiweiweiblog.com\nakademiye.org\nakamaihd.net\nakiba-online.com\nakiba-web.com\nakow.org\nal-islam.com\nal-qimmah.net\nalabout.com\nalanhou.com\nalarab.qa\nalasbarricadas.org\nalexlur.org\nalforattv.net\nalhayat.com\nalicejapan.co.jp\naliengu.com\nalive.bar\nalkasir.com\nall4mom.org\nallcoin.com\nallconnected.co\nalldrawnsex.com\nallervpn.com\nallfinegirls.com\nallgirlmassage.com\nallgirlsallowed.org\nallgravure.com\nalliance.org.hk\nallinfa.com\nalljackpotscasino.com\nallmovie.com\nallowed.org\nalmasdarnews.com\nalmostmy.com\nalphaporno.com\nalternate-tools.com\nalternativeto.net\naltrec.com\nalvinalexander.com\nalwaysdata.com\nalwaysdata.net\nalwaysvpn.com\nam730.com.hk\namazon.co.jp\namazon.com\nameblo.jp\namericangreencard.com\namericanunfinished.com\namiblockedornot.com\namigobbs.net\namitabhafoundation.us\namnesty.org\namnesty.org.hk\namnesty.tw\namnestyusa.org\namnyemachen.org\namoiist.com\nampproject.org\namtb-taipei.org\nanchor.fm\nanchorfree.com\nancsconf.org\nandfaraway.net\nandroid-x86.org\nandroid.com\nandroidapksfree.com\nandroidify.com\nandroidplus.co\nandroidtv.com\nandygod.com\nangela-merkel.de\nangelfire.com\nangola.org\nangularjs.org\nanimecrazy.net\naniscartujo.com\nannatam.com\nanobii.com\nanontext.com\nanonymise.us\nanonymitynetwork.com\nanonymizer.com\nanonymouse.org\nanpopo.com\nanswering-islam.org\nanthonycalzadilla.com\nanti1984.com\nantichristendom.com\nantiwave.net\nanyporn.com\nanysex.com\nao3.org\naobo.com.au\naofriend.com\naofriend.com.au\naojiao.org\naolchannels.aol.com\naomiwang.com\napartmentratings.com\napartments.com\napat1989.org\napetube.com\napi-secure.recaptcha.net\napi-verify.recaptcha.net\napi.ai\napi.dropboxapi.com\napi.linksalpha.com\napi.proxlet.com\napi.pureapk.com\napi.recaptcha.net\napiary.io\napidocs.linksalpha.com\napigee.com\napk-dl.com\napk.support\napkcombo.com\napkmirror.com\napkmonk.com\napkplz.com\napkpure.com\naplusvpn.com\napp.box.com\napp.cloudcone.com\napp.evozi.com\napp.heywire.com\napp.smartmailcloud.com\napp.tutanota.com\nappbrain.com\nappdownloader.net\nappledaily.com\nappledaily.com.hk\nappledaily.com.tw\nappshopper.com\nappsocks.net\nappspot.com\nappsto.re\naptoide.com\nar.hao123.com\narchive.fo\narchive.is\narchive.li\narchive.md\narchive.org\narchive.ph\narchive.today\narchive.vn\narchiveofourown.com\narchiveofourown.org\narchives.gov\narchives.gov.tw\narctosia.com\nareca-backup.org\narena.taipei\narethusa.su\narlingtoncemetery.mil\narmy.mil\nart4tibet1998.org\narte.tv\nartofpeacefoundation.org\nartstation.com\nartsy.net\nasacp.org\nasdfg.jp\nasg.to\nasia-gaming.com\nasiaharvest.org\nasianage.com\nasianews.it\nasiansexdiary.com\nasianspiss.com\nasianwomensfilm.de\nasiaone.com\nasiatgp.com\nasiatoday.us\naskstudent.com\naskynz.net\naspi.org.au\naspistrategist.org.au\nassembla.com\nassets.bwbx.io\nassimp.org\nastrill.com\natc.org.au\natchinese.com\natdmt.com\natgfw.org\nathenaeizou.com\natlanta168.com\natlaspost.com\natnext.com\nauctions.yahoo.co.jp\nauntology.fandom.com\nauthorizeddns.net\nauthorizeddns.org\nauthorizeddns.us\nautodraw.com\nav-e-body.com\nav.com\nav.movie\nav.nightlife141.com\navaaz.org\navbody.tv\navcity.tv\navcool.com\navdb.in\navdb.tv\navfantasy.com\navg.com\navgle.com\navidemux.org\navmo.pw\navmoo.com\navmoo.net\navmoo.pw\navoision.com\navyahoo.com\naxios.com\naxureformac.com\nazerbaycan.tv\nazerimix.com\nazubu.tv\nazurewebsites.net\nb-ok.cc\nb0ne.com\nbabylonbee.com\nbabynet.com.hk\nbackchina.com\nbackpackers.com.tw\nbacktotiananmen.com\nbadiucao.com\nbadjojo.com\nbadoo.com\nbahamut.com.tw\nbaidu.jp\nbaijie.org\nbailandaily.com\nbaixing.me\nbakgeekhome.tk\nbanana-vpn.com\nband.us\nbandcamp.com\nbandwagonhost.com\nbangbrosnetwork.com\nbangchen.net\nbangdream.space\nbangkokpost.com\nbangyoulater.com\nbankmobilevibe.com\nbannedbook.org\nbannednews.org\nbanorte.com\nbaramangaonline.com\nbarenakedislam.com\nbarnabu.co.uk\nbartender.dowjones.com\nbarton.de\nbastillepost.com\nbayvoice.net\nbb-chat.tv\nbb.ttv.com.tw\nbbc.co.uk\nbbc.com\nbbc.in\nbbcchinese.com\nbbchat.tv\nbbci.co.uk\nbbg.gov\nbbkz.com\nbbnradio.org\nbbs-tw.com\nbbs.brockbbs.com\nbbs.cantonese.asia\nbbs.ecstart.com\nbbs.hanminzu.org\nbbs.hasi.wang\nbbs.huasing.org\nbbs.junglobal.net\nbbs.kimy.com.tw\nbbs.mikocon.com\nbbs.morbell.com\nbbs.mychat.to\nbbs.netbig.com\nbbs.ozchinese.com\nbbs.qmzdd.com\nbbs.sina.com\nbbs.skykiwi.com\nbbs.sou-tong.org\nbbs.tuitui.info\nbbsdigest.com\nbbsfeed.com\nbbsland.com\nbbsmo.com\nbbsone.com\nbbtoystore.com\nbcast.co.nz\nbcc.com.tw\nbcchinese.net\nbcex.ca\nbcmorning.com\nbdsmvideos.net\nbeaconevents.com\nbebo.com\nbeeg.com\nbeevpn.com\nbehance.net\nbehindkink.com\nbeijing1989.com\nbeijing2022.art\nbeijingspring.com\nbeijingzx.org\nbelamionline.com\nbell.wiki\nbemywife.cc\nberic.me\nberlinerbericht.de\nberlintwitterwall.com\nberm.co.nz\nbestforchina.org\nbestgore.com\nbestpornstardb.com\nbestvpn.com\nbestvpnanalysis.com\nbestvpnserver.com\nbestvpnservice.com\nbestvpnusa.com\nbet365.com\nbetfair.com\nbetternet.co\nbettervpn.com\nbettween.com\nbetvictor.com\nbewww.net\nbeyondfirewall.com\nbfnn.org\nbfsh.hk\nbgvpn.com\nbianlei.com\nbiantailajiao.com\nbiantailajiao.in\nbiblesforamerica.org\nbibox.com\nbic2011.org\nbiedian.me\nbig.one\nbigfools.com\nbigjapanesesex.com\nbigmoney.biz\nbignews.org\nbigone.com\nbigsound.org\nbild.de\nbiliworld.com\nbillypan.com\nbinance.com\nbinux.me\nbird.so\nbit-z.com\nbit.do\nbit.ly\nbitbay.net\nbitc.bme.emory.edu\nbitchute.com\nbitcointalk.org\nbitcoinworld.com\nbitfinex.com\nbithumb.com\nbitinka.com.ar\nbitmex.com\nbitshare.com\nbitsnoop.com\nbitterwinter.org\nbitvise.com\nbitz.ai\nbizhat.com\nbjnewlife.org\nbjs.org\nbjzc.org\nbl-doujinsouko.com\nblacklogic.com\nblackvpn.com\nblewpass.com\nblinkx.com\nblinw.com\nblip.tv\nblockcn.com\nblockedbyhk.com\nblockless.com\nblog.calibre-ebook.com\nblog.cnyes.com\nblog.cryptographyengineering.com\nblog.de\nblog.exblog.co.jp\nblog.excite.co.jp\nblog.expofutures.com\nblog.fizzik.com\nblog.foolsmountain.com\nblog.fuckgfw233.org\nblog.goo.ne.jp\nblog.google\nblog.istef.info\nblog.jackjia.com\nblog.jp\nblog.kangye.org\nblog.lester850.info\nblog.martinoei.com\nblog.pathtosharepoint.com\nblog.pentalogic.net\nblog.qooza.hk\nblog.ranxiang.com\nblog.sina.com.tw\nblog.sogoo.org\nblog.soylent.com\nblog.syx86.cn\nblog.syx86.com\nblog.taragana.com\nblog.tiney.com\nblog.workflow.is\nblog.xuite.net\nblog.youthwant.com.tw\nblog.youxu.info\nblogblog.com\nblogcatalog.com\nblogcity.me\nblogdns.org\nblogger.com\nblogimg.jp\nbloglines.com\nbloglovin.com\nblogs.icerocket.com\nblogs.libraryinformationtechnology.com\nblogs.tampabay.com\nblogs.yahoo.co.jp\nblogspot.ae\nblogspot.al\nblogspot.am\nblogspot.ba\nblogspot.be\nblogspot.bg\nblogspot.ca\nblogspot.cat\nblogspot.ch\nblogspot.cl\nblogspot.co.uk\nblogspot.com\nblogspot.com.ar\nblogspot.com.au\nblogspot.com.br\nblogspot.com.by\nblogspot.com.co\nblogspot.com.cy\nblogspot.com.ee\nblogspot.com.eg\nblogspot.com.es\nblogspot.com.mt\nblogspot.com.ng\nblogspot.com.tr\nblogspot.com.uy\nblogspot.cz\nblogspot.de\nblogspot.dk\nblogspot.es\nblogspot.fi\nblogspot.fr\nblogspot.gr\nblogspot.hk\nblogspot.hr\nblogspot.hu\nblogspot.ie\nblogspot.in\nblogspot.is\nblogspot.it\nblogspot.jp\nblogspot.kr\nblogspot.li\nblogspot.lt\nblogspot.lu\nblogspot.md\nblogspot.mk\nblogspot.mx\nblogspot.my\nblogspot.nl\nblogspot.no\nblogspot.pe\nblogspot.pt\nblogspot.qa\nblogspot.ro\nblogspot.ru\nblogspot.se\nblogspot.sg\nblogspot.si\nblogspot.sk\nblogspot.sn\nblogspot.tw\nblogspot.ug\nblogtd.net\nblogtd.org\nbloodshed.net\nbloomberg.cn\nbloomberg.com\nbloomberg.de\nbloombergview.com\nbloomfortune.com\nblubrry.com\nblueangellive.com\nbmfinn.com\nbnews.co\nbnn.co\nbnrmetal.com\nboardreader.com\nbod.asia\nbodog88.com\nbolehvpn.net\nbolin.netfirms.com\nbonbonme.com\nbonbonsex.com\nbonfoundation.org\nbongacams.com\nboobstagram.com\nbook.com.tw\nbook.zi5.me\nbookdepository.com\nbookepub.com\nbooks.com.tw\nbooktopia.com.au\nboomssr.com\nborgenmagazine.com\nbot.nu\nbotanwang.com\nbowenpress.com\nboxpn.com\nboxun.com\nboxun.tv\nboxunblog.com\nboxunclub.com\nboyangu.com\nboyfriendtv.com\nboysfood.com\nboysmaster.com\nbr.hao123.com\nbr.st\nbrainyquote.com\nbrandonhutchinson.com\nbraumeister.org\nbrave.com\nbravotube.net\nbrazzers.com\nbreak.com\nbreakgfw.com\nbreaking911.com\nbreakingtweets.com\nbreakwall.net\nbriefdream.com\nbriian.com\nbrizzly.com\nbrkmd.com\nbroadbook.com\nbroadpressinc.com\nbrookings.edu\nbrucewang.net\nbrutaltgp.com\nbt2mag.com\nbt95.com\nbtaia.com\nbtbtav.com\nbtc98.com\nbtcbank.bank\nbtctrade.im\nbtdigg.org\nbtku.me\nbtku.org\nbtspread.com\nbtsynckeys.com\nbudaedu.org\nbuddhanet.com.tw\nbuddhistchannel.tv\nbuffered.com\nbullguard.com\nbullog.org\nbullogger.com\nbunbunhk.com\nbusayari.com\nbusiness-humanrights.org\nbusinessinsider.com\nbusinesstoday.com.tw\nbusinessweek.com\nbusu.org\nbusytrade.com\nbuugaa.com\nbuy.yahoo.com.tw\nbuzzhand.com\nbuzzhand.net\nbuzzorange.com\nbvpn.com\nbwgyhw.com\nbwh1.net\nbwsj.hk\nbx.in.th\nbx.tl\nbybit.com\nbynet.co.il\nbypasscensorship.org\nc-est-simple.com\nc-span.org\nc-spanvideo.org\nc100tibet.org\nc2cx.com\ncablegatesearch.net\ncachinese.com\ncacnw.com\ncactusvpn.com\ncafepress.com\ncahr.org.tw\ncaijinglengyan.com\ncalameo.com\ncalebelston.com\ncalgarychinese.ca\ncalgarychinese.com\ncalgarychinese.net\ncam4.com\ncam4.jp\ncam4.sg\ncamfrog.com\ncampaignforuyghurs.org\ncams.com\ncams.org.sg\ncanadameet.com\ncanalporno.com\ncanyu.org\ncao.im\ncaobian.info\ncaochangqing.com\ncap.org.hk\ncarabinasypistolas.com\ncardinalkungfoundation.org\ncarfax.com\ncari.com.my\ncaribbeancom.com\ncarmotorshow.com\ncarrd.co\ncartoonmovement.com\ncasadeltibetbcn.org\ncasatibet.org.mx\ncasino.williamhill.com\ncasinobellini.com\ncasinoking.com\ncasinoriva.com\ncastbox.fm\ncatch22.net\ncatchgod.com\ncatfightpayperview.xxx\ncatholic.org.hk\ncatholic.org.tw\ncathvoice.org.tw\ncato.org\ncattt.com\ncbc.ca\ncbs.ntu.edu.tw\ncbsnews.com\ncbtc.org.hk\ncccat.cc\ncccat.co\nccdtr.org\ncchere.com\nccim.org\ncclife.ca\ncclife.org\ncclifefl.org\nccthere.com\nccthere.net\ncctmweb.net\ncctongbao.com\nccue.ca\nccue.com\nccvoice.ca\nccw.org.tw\ncdbook.org\ncdcparty.com\ncdef.org\ncdig.info\ncdjp.org\ncdn-images.mailchimp.com\ncdn.assets.lfpcontent.com\ncdn.helixstudios.net\ncdn.printfriendly.com\ncdn.seatguru.com\ncdn.softlayer.net\ncdn1.lp.saboom.com\ncdnews.com.tw\ncdninstagram.com\ncdp1989.org\ncdp1998.org\ncdp2006.org\ncdpa.url.tw\ncdpeu.org\ncdpusa.org\ncdpweb.org\ncdpwu.org\ncdw.com\ncecc.gov\ncellulo.info\ncenews.eu\ncentauro.com.br\ncenterforhumanreprod.com\ncentralnation.com\ncenturys.net\ncertificate-transparency.org\ncertificate.revocationcheck.com\ncfhks.org.hk\ncfos.de\ncfr.org\ncftfc.com\ncgdepot.org\ncgst.edu\nch.shvoong.com\nchange.org\nchangeip.name\nchangeip.net\nchangeip.org\nchangp.com\nchangsa.net\nchannelnewsasia.com\nchaoex.com\nchapm25.com\nchatnook.com\nchaturbate.com\ncheckgfw.com\nchengmingmag.com\nchenguangcheng.com\nchenpokong.com\nchenpokong.net\nchenpokongvip.com\nchenshan20042005.wordpress.com\ncherrysave.com\nchhongbi.org\nchicagoncmtv.com\nchina-mmm.jp.net\nchina-mmm.net\nchina-mmm.sa.com\nchina-review.com.ua\nchina-week.com\nchina.ucanews.com\nchina101.com\nchina18.org\nchina21.com\nchina21.org\nchina5000.us\nchinaaffairs.org\nchinaaid.me\nchinaaid.net\nchinaaid.org\nchinaaid.us\nchinachange.org\nchinachannel.hk\nchinacitynews.be\nchinacomments.org\nchinadialogue.net\nchinadigitaltimes.net\nchinaelections.org\nchinaeweekly.com\nchinafreepress.org\nchinagate.com\nchinageeks.org\nchinagfw.org\nchinagonet.com\nchinagreenparty.org\nchinahorizon.org\nchinahush.com\nchinainperspective.com\nchinainterimgov.org\nchinalaborwatch.org\nchinalawandpolicy.com\nchinalawtranslate.com\nchinamule.com\nchinamz.org\nchinanewscenter.com\nchinapost.com.tw\nchinapress.com.my\nchinarightsia.org\nchinasmile.net\nchinasocialdemocraticparty.com\nchinasoul.org\nchinasucks.net\nchinatimes.com\nchinatopsex.com\nchinatown.com.au\nchinatweeps.com\nchinaview.wordpress.com\nchinaway.org\nchinaworker.info\nchinaxchina.com\nchinayouth.org.hk\nchinayuanmin.org\nchinese-hermit.net\nchinese-leaders.org\nchinese-memorial.org\nchinese.donga.com\nchinese.engadget.com\nchinese.irib.ir\nchinese.soifind.com\nchinesedaily.com\nchinesedailynews.com\nchinesedemocracy.com\nchinesegay.org\nchinesen.de\nchinesenews.net.au\nchinesepen.org\nchineseradioseattle.com\nchinesetalks.net\nchineseupress.com\nchingcheong.com\nchinman.net\nchithu.org\nchobit.cc\nchrdnet.com\nchristianfreedom.org\nchristianstudy.com\nchristiantimes.org.hk\nchristusrex.org\nchrlawyers.hk\nchrome.com\nchromecast.com\nchromeenterprise.google\nchromeexperiments.com\nchromercise.com\nchromestatus.com\nchromium.org\nchuang-yen.org\nchubold.com\nchubun.com\nchurchinhongkong.org\nchushigangdrug.ch\ncienen.com\ncineastentreff.de\ncipfg.org\ncirclethebayfortibet.org\ncirosantilli.com\ncitizencn.com\ncitizenlab.ca\ncitizenlab.org\ncitizenscommission.hk\ncitizensradio.org\ncity365.ca\ncity9x.com\ncitypopulation.de\ncitytalk.tw\ncivicparty.hk\ncivildisobediencemovement.org\ncivilhrfront.org\nciviliangunner.com\ncivilmedia.tw\nck101.com\ncl.d0z.net\nclarionproject.org\nclassicalguitarblog.net\nclb.org.hk\ncldr.unicode.org\ncleansite.biz\ncleansite.info\ncleansite.us\nclearharmony.net\nclearsurance.com\nclearwisdom.net\nclementine-player.org\ncling.omy.sg\nclinica-tibet.ru\nclipfish.de\ncloakpoint.com\ncloud.mail.ru\ncloudflare-ipfs.com\nclub1069.com\nclubhouseapi.com\nclyp.it\ncmcn.org\ncmi.org.tw\ncmp.hku.hk\ncms.gov\ncmule.com\ncmule.org\ncmx.im\ncn-proxy.com\ncn.dayabook.com\ncn.fmnnow.com\ncn.freeones.com\ncn.giganews.com\ncn.ibtimes.com\ncn.nytstyle.com\ncn.sandscotaicentral.com\ncn.shafaqna.com\ncn.streetvoice.com\ncn.theaustralian.com.au\ncn.uncyclopedia.wikia.com\ncn.uptodown.com\ncn.voa.mobi\ncn2.streetvoice.com\ncn6.eu\ncna.com.tw\ncnabc.com\ncnbbnews.wordpress.com\ncnbc.com\ncnd.org\ncnex.org.cn\ncnineu.com\ncnn.com\ncnnews.chosun.com\ncnpolitics.org\ncnproxy.com\nco.ng.mil\ncoat.co.jp\ncobinhood.com\ncochina.co\ncochina.org\ncode1984.com\ncodeshare.io\ncodeskulptor.org\ncoin2co.in\ncoinbene.com\ncoinegg.com\ncoinex.com\ncoingecko.com\ncoingi.com\ncoinmarketcap.com\ncoinrail.co.kr\ncointiger.com\ncointobe.com\ncoinut.com\ncollateralmurder.com\ncollateralmurder.org\ncom.google\ncomefromchina.com\ncomic-mega.me\ncommandarms.com\ncommentshk.com\ncommunistcrimes.org\ncommunity.windy.com\ncommunitychoicecu.com\ncomparitech.com\ncompileheart.com\ncompress.to\nconair.me\nconnect.facebook.net\nconoha.jp\ncontactmagazine.net\ncontests.twilio.com\nconvio.net\ncoobay.com\ncoolaler.com\ncoolder.com\ncoolloud.org.tw\ncoolncute.com\ncoolstuffinc.com\ncorumcollege.com\ncos-moe.com\ncosmic.monar.ch\ncosplayjav.pl\ncostco.com\ncotweet.com\ncounter.social\ncoursehero.com\ncpj.org\ncq99.us\ncrackle.com\ncrazys.cc\ncrazyshit.com\ncrbug.com\ncrchina.org\ncrd-net.org\ncreaders.net\ncreadersnet.com\ncreativelab5.com\ncrisisresponse.google\ncristyli.com\ncrocotube.com\ncrossfire.co.kr\ncrossthewall.net\ncrossvpn.net\ncrrev.com\ncrucial.com\ncrunchyroll.com\ncsdparty.com\ncsis.org\ncsmonitor.com\ncss.pixnet.in\ncsuchen.de\ncsw.org.uk\nct.org.tw\nctao.org\nctfriend.net\nctitv.com.tw\nctowc.org\ncts.com.tw\nctwant.com\ncuhkacs.org\ncuihua.org\ncuiweiping.net\nculture.tw\ncumlouder.com\ncurvefish.com\ncusp.hk\ncusu.hk\ncutscenes.net\ncw.com.tw\ncyberghost.natado.com\ncyberghostvpn.com\ncynscribe.com\ncytode.us\nd-fukyu.com\nd100.net\nd1b183sg0nvnuh.cloudfront.net\nd1c37gjwa26taa.cloudfront.net\nd2bay.com\nd2pass.com\nd3c33hcgiwev3.cloudfront.net\nd3rhr7kgmtrq1v.cloudfront.net\ndabr.co.uk\ndabr.eu\ndabr.me\ndabr.mobi\ndadazim.com\ndadi360.com\ndafabet.com\ndafagood.com\ndafahao.com\ndafoh.org\ndaftporn.com\ndagelijksestandaard.nl\ndaidostup.ru\ndailidaili.com\ndailymail.co.uk\ndailymotion.com\ndailynews.sina.com\ndailysabah.com\ndailyview.tw\ndaiphapinfo.net\ndajiyuan.com\ndajiyuan.de\ndajiyuan.eu\ndajusha.baywords.com\ndalailama-archives.org\ndalailama.com\ndalailama.mn\ndalailama.ru\ndalailama.usc.edu\ndalailama80.org\ndalailamacenter.org\ndalailamafellows.org\ndalailamafilm.com\ndalailamafoundation.org\ndalailamahindi.com\ndalailamainaustralia.org\ndalailamajapanese.com\ndalailamaprotesters.info\ndalailamaquotes.org\ndalailamatrust.org\ndalailamavisit.org.nz\ndalailamaworld.com\ndalianmeng.org\ndaliulian.org\ndanbooru.donmai.us\ndanke4china.net\ndaodu14.jigsy.com\ndaolan.net\ndarktech.org\ndarktoy.net\ndarpa.mil\ndarrenliuwei.com\ndastrassi.org\ndata-vocabulary.org\ndata.flurry.com\ndata.gov.tw\ndaum.net\ndavid-kilgour.com\ndawangidc.com\ndaxa.cn\ndaylife.com\ndb.tt\ndbc.hk\ndbgjd.com\ndcard.tw\ndcmilitary.com\nddc.com.tw\nddhw.info\nddns.info\nddns.me.uk\nddns.mobi\nddns.ms\nddns.name\nddns.net\nddns.us\nde-sci.org\ndeadline.com\ndeaftone.com\ndebug.com\ndeck.ly\ndecodet.co\ndeepmind.com\ndeezer.com\ndefinebabe.com\ndeja.com\ndelcamp.net\ndelicious.com\ndemo.opera-mini.net\ndemocrats.org\ndemosisto.hk\ndepositphotos.com\nderekhsu.homeip.net\ndesc.se\ndesign.google\ndesipro.de\ndessci.com\ndestiny.xfiles.to\ndestroy-china.jp\ndeutsche-welle.de\ndevelopers.box.net\ndeviantart.com\ndeviantart.net\ndevio.us\ndevpn.com\ndfas.mil\ndfn.org\ndharamsalanet.com\ndharmakara.net\ndhcp.biz\ndiaoyuislands.org\ndifangwenge.org\ndigiland.tw\ndigisfera.com\ndigitalnomadsproject.org\ndiigo.com\ndilber.se\ndingchin.com.tw\ndipity.com\ndirectcreative.com\ndiscoins.com\ndisconnect.me\ndiscord.com\ndiscord.gg\ndiscordapp.com\ndiscordapp.net\ndiscuss.com.hk\ndiscuss4u.com\ndish.com\ndisk.yandex.com\ndisp.cc\ndisqus.com\ndit-inc.us\ndizhidizhi.com\ndizhuzhishang.com\ndjangosnippets.org\ndjorz.com\ndl-laby.jp\ndl.box.net\ndlive.tv\ndlsite.com\ndlyoutube.com\ndm530.net\ndmc.nico\ndmcdn.net\ndmhy.org\ndmm.co.jp\ndns-dns.com\ndns-stuff.com\ndns.google\ndns04.com\ndns05.com\ndns1.us\ndns2.us\ndns2go.com\ndnscrypt.org\ndnset.com\ndnsrd.com\ndnssec.net\ndnvod.tv\ndoctorvoice.org\ndocumentingreality.com\ndogfartnetwork.com\ndojin.com\ndok-forum.net\ndolc.de\ndolf.org.hk\ndollf.com\ndomain.club.tw\ndomains.google\ndomaintoday.com.au\ndongtaiwang.com\ndongtaiwang.net\ndongyangjing.com\ndontfilter.us\ndontmovetochina.com\ndorjeshugden.com\ndotplane.com\ndotsub.com\ndotvpn.com\ndoub.io\ndoubibackup.com\ndoubmirror.cf\ndougscripts.com\ndouhokanko.net\ndoujincafe.com\ndowei.org\ndownload.aircrack-ng.org\ndownload.cnet.com\ndownload.ithome.com.tw\ndphk.org\ndpp.org.tw\ndpr.info\ndragonex.io\ndragonsprings.org\ndreamamateurs.com\ndrepung.org\ndrgan.net\ndrmingxia.org\ndropbooks.tv\ndropbox.com\ndropboxusercontent.com\ndrsunacademy.com\ndrtuber.com\ndscn.info\ndsmtp.com\ndstk.dk\ndtdns.net\ndtiblog.com\ndtic.mil\ndtwang.org\nduanzhihu.com\ndubox.com\nduck.com\nduckdns.org\nduckduckgo-owned-server.yahoo.net\nduckduckgo.com\nduckload.com\nduckmylife.com\nduga.jp\nduihua.org\nduihuahrjournal.org\ndumb1.com\ndunyabulteni.net\nduoweitimes.com\nduping.net\nduplicati.com\ndupola.com\ndupola.net\ndushi.ca\nduyaoss.com\ndvdpac.com\ndvorak.org\ndw-world.com\ndw-world.de\ndw.com\ndw.de\ndwnews.com\ndwnews.net\ndynamic-dns.net\ndynamicdns.biz\ndynamicdns.co.uk\ndynamicdns.me.uk\ndynamicdns.org.uk\ndynawebinc.com\ndyndns-ip.com\ndyndns-pics.com\ndyndns.org\ndyndns.pro\ndynssl.com\ndynu.com\ndynu.net\ndynupdate.no-ip.com\ndysfz.cc\ndzze.com\ne-classical.com.tw\ne-gold.com\ne-hentai.org\ne-hentaidb.com\ne-info.org.tw\ne-traderland.net\ne-zone.com.hk\ne123.hk\nearlytibet.com\nearthcam.com\nearthvpn.com\neastern-ark.com\neasternlightning.org\neastturkestan.com\neastturkistan-gov.org\neastturkistancc.org\neastturkistangovernmentinexile.us\neasyca.ca\neasypic.com\nebony-beauty.com\nebook.hyread.com.tw\nebookbrowse.com\nebookee.com\nebtcbank.com\necfa.org.tw\nechofon.com\necimg.tw\necministry.net\neconomist.com\necsm.vs.com\nedgecastcdn.net\nedicypages.com\nedmontonchina.cn\nedmontonservice.com\nedns.biz\nedoors.com\nedubridge.com\nedupro.org\neeas.europa.eu\neesti.ee\neevpn.com\nefcc.org.hk\neffers.com\nefksoft.com\nefukt.com\neic-av.com\neireinikotaerukai.com\neisbb.com\neksisozluk.com\nelectionsmeter.com\nelgoog.im\nellawine.org\nelpais.com\neltondisney.com\nemaga.com\nemanna.com\nemilylau.org.hk\nempfil.com\nemule-ed2k.com\nemulefans.com\nemuparadise.me\nen.favotter.net\nen.hao123.com\nenanyang.my\nencrypt.me\nencyclopedia.com\nenewstree.com\nenfal.de\nengagedaily.org\nenglishforeveryone.org\nenglishfromengland.co.uk\nenglishpen.org\nenlighten.org.tw\nentermap.com\nenvironment.google\nepa.gov.tw\nepac.to\nepiscopalchurch.org\nepochhk.com\nepochtimes-bg.com\nepochtimes-romania.com\nepochtimes.co.il\nepochtimes.co.kr\nepochtimes.com\nepochtimes.cz\nepochtimes.de\nepochtimes.fr\nepochtimes.ie\nepochtimes.it\nepochtimes.jp\nepochtimes.ru\nepochtimes.se\nepochtimestr.com\nepochweek.com\nepochweekly.com\neporner.com\nequinenow.com\nerabaru.net\neracom.com.tw\neraysoft.com.tr\nerepublik.com\nerights.net\neriversoft.com\nerktv.com\nernestmandel.org\nerodaizensyu.com\nerodoujinlog.com\nerodoujinworld.com\neromanga-kingdom.com\neromangadouzin.com\neromon.net\neroprofile.com\neroticsaloon.net\nesg.t91y.com\neslite.com\nesmtp.biz\nesu.dog\nesurance.com\netaa.org.au\netadult.com\netaiwannews.com\netherdelta.com\netherscan.io\netizer.org\netokki.com\netools.ncol.com\netowns.net\netowns.org\netsy.com\nettoday.net\netvonline.hk\neu.org\neucasino.com\neulam.com\neurekavpt.com\neuronews.com\nevchk.wikia.com\nevozi.com\nevschool.net\nexblog.jp\nexchristian.hk\nexhentai.org\nexmo.com\nexmormon.org\nexpatshield.com\nexpecthim.com\nexpekt.com\nexperts-univers.com\nexploader.net\nexpressvpn.com\nexrates.me\nextmatrix.com\nextremetube.com\nexx.com\neyevio.jp\neyny.com\nezpc.tk\nezpeer.com\nezua.com\nf8.com\nfa.gov.tw\nfacebook.br\nfacebook.com\nfacebook.design\nfacebook.hu\nfacebook.in\nfacebook.nl\nfacebook.se\nfacebookmail.com\nfacebookquotes4u.com\nfaceless.me\nfacesofnyfw.com\nfacesoftibetanselfimmolators.info\nfactpedia.org\nfail.hk\nfaith100.org\nfaithfuleye.com\nfaiththedog.info\nfakku.net\nfallenark.com\nfalsefire.com\nfalun-co.org\nfalun-ny.net\nfalun.caltech.edu\nfalunart.org\nfalunasia.info\nfalunau.org\nfalunaz.net\nfalundafa-dc.org\nfalundafa-florida.org\nfalundafa-nc.org\nfalundafa-pa.net\nfalundafa-sacramento.org\nfalundafa.org\nfalundafaindia.org\nfalundafamuseum.org\nfalungong.club\nfalungong.de\nfalungong.org.uk\nfalunhr.org\nfaluninfo.de\nfaluninfo.net\nfalunpilipinas.net\nfalunworld.net\nfamilyfed.org\nfamunion.com\nfan-qiang.com\nfangbinxing.com\nfangeming.com\nfangeqiang.com\nfanglizhi.info\nfangmincn.org\nfangong.forums-free.com\nfangong.org\nfangongheike.com\nfanhaodang.com\nfanhaolou.com\nfanqiang.network\nfanqiang.tk\nfanqiangdang.com\nfanqianghou.com\nfanqiangyakexi.net\nfanqiangzhe.com\nfanswong.com\nfantv.hk\nfanyue.info\nfapdu.com\nfaproxy.com\nfaqserv.com\nfartit.com\nfarwestchina.com\nfast.wistia.com\nfastestvpn.com\nfastpic.ru\nfastssh.com\nfaststone.org\nfatbtc.com\nfavstar.fm\nfawanghuihui.org\nfaydao.com\nfaz.net\nfb.com\nfb.me\nfb.watch\nfbaddins.com\nfbcdn.net\nfbsbx.com\nfbworkmail.com\nfc2.com\nfc2blog.net\nfc2china.com\nfc2cn.com\nfda.gov.tw\nfdc64.de\nfdc64.org\nfdc89.jp\nfeedburner.com\nfeeder.co\nfeedly.com\nfeeds.fileforum.com\nfeedx.net\nfeelssh.com\nfeer.com\nfeifeiss.com\nfeitian-california.org\nfeitianacademy.org\nfeixiaohao.com\nfeministteacher.com\nfengzhenghu.com\nfengzhenghu.net\nfevernet.com\nff.im\nfffff.at\nfflick.com\nffvpn.com\nfgmtv.net\nfgmtv.org\nfhreports.net\nfiddle.jshell.net\nfigprayer.com\nfileflyer.com\nfiles2me.com\nfileserve.com\nfilesor.com\nfillthesquare.org\nfilmingfortibet.org\nfilmy.olabloga.pl\nfilthdump.com\nfinancetwitter.com\nfinchvpn.com\nfindmespot.com\nfindyoutube.com\nfindyoutube.net\nfingerdaily.com\nfinler.net\nfirearmsworld.net\nfirebaseio.com\nfireofliberty.org\nfiretweet.io\nfirstfivefollowers.com\nfirstpost.com\nflagsonline.it\nflecheinthepeche.fr\nfleshbot.com\nfleursdeslettres.com\nflgg.us\nflgjustice.org\nflickr.com\nflickrhivemind.net\nflickriver.com\nfling.com\nflipboard.com\nflipkart.com\nflitto.com\nflnet.org\nflog.tw\nflyvpn.com\nflyzy2005.com\nfnac.be\nfnac.com\nfnc.ebc.net.tw\nfochk.org\nfocustaiwan.tw\nfocusvpn.com\nfofg-europe.net\nfofg.org\nfofldfradio.org\nfooooo.com\nforeignaffairs.com\nforeignpolicy.com\nforum.baby-kingdom.com\nforum.cyberctm.com\nforum.idsam.com\nforum.my903.com\nforum.mymaji.com\nforum.omy.sg\nforum.palmislife.com\nforum.setty.com.tw\nforum.sina.com.hk\nforum.slime.com.tw\nforum.tvb.com\nforum.xinbao.de\nforum4hk.com\nfotile.me\nfourface.nodesnoop.com\nfourthinternational.org\nfoxdie.us\nfoxgay.com\nfoxsub.com\nfoxtang.com\nfpmt-osel.org\nfpmt.org\nfpmt.tw\nfpmtmexico.org\nfq.wikia.com\nfqok.org\nfqrouter.com\nfranklc.com\nfreakshare.com\nfree-gate.org\nfree-hada-now.org\nfree-proxy.cz\nfree-ss.site\nfree-ssh.com\nfree.fr\nfree4u.com.ar\nfreealim.com\nfreebeacon.com\nfreebrowser.org\nfreechal.com\nfreechina.net\nfreechina.news\nfreechinaforum.org\nfreechinaweibo.com\nfreeddns.com\nfreeddns.org\nfreedomchina.info\nfreedomcollection.org\nfreedomhouse.org\nfreedominfonetweb.wordpress.com\nfreedomsherald.org\nfreeforums.org\nfreefq.com\nfreefuckvids.com\nfreegao.com\nfreehongkong.org\nfreeilhamtohti.org\nfreekazakhs.org\nfreekwonpyong.org\nfreelotto.com\nfreeman2.com\nfreemoren.com\nfreemorenews.com\nfreemuse.org\nfreenet-china.org\nfreenetproject.org\nfreenewscn.com\nfreeopenvpn.com\nfreeoz.org\nfreessh.us\nfreetcp.com\nfreetibet.net\nfreetibet.org\nfreetibetanheroes.org\nfreetribe.me\nfreeviewmovies.com\nfreevpn.me\nfreevpn.nl\nfreewallpaper4.me\nfreewebs.com\nfreewechat.com\nfreeweibo.com\nfreewww.biz\nfreewww.info\nfreexinwen.com\nfreeyellow.com\nfreeyoutubeproxy.net\nfriendfeed-media.com\nfriendfeed.com\nfriends-of-tibet.org\nfriendsoftibet.org\nfring.com\nfringenetwork.com\nfrom-pr.com\nfrom-sd.com\nfromchinatousa.net\nfrommel.net\nfrontlinedefenders.org\nfrootvpn.com\nfscked.org\nfsurf.com\nftchinese.com\nftp1.biz\nftpserver.biz\nftv.com.tw\nftvnews.com.tw\nftx.com\nfucd.com\nfuckcnnic.net\nfuckgfw.org\nfulione.com\nfullerconsideration.com\nfulue.com\nfunf.tw\nfunkyimg.com\nfunp.com\nfuq.com\nfurbo.org\nfurhhdl.org\nfurinkan.com\nfurl.net\nfuturechinaforum.org\nfuturemessage.org\nfux.com\nfuyin.net\nfuyindiantai.org\nfuyu.org.tw\nfw.cm\nfxcm-chinese.com\nfxnetworks.com\nfzh999.com\nfzh999.net\nfzlm.com\ng-area.org\ng-queen.com\ng.co\ng0v.social\ng6hentai.com\ngab.com\ngabocorp.com\ngaeproxy.com\ngaforum.org\ngagaoolala.com\ngalaxymacau.com\ngalenwu.com\ngalstars.net\ngame735.com\ngamebase.com.tw\ngamejolt.com\ngamer-cds.cdn.hinet.net\ngamer.com.tw\ngamer2-cds.cdn.hinet.net\ngamez.com.tw\ngamousa.com\nganges.com\ngaoming.net\ngaopi.net\ngaozhisheng.net\ngaozhisheng.org\ngardennetworks.com\ngardennetworks.org\ngartlive.com\ngate-project.com\ngate.io\ngatecoin.com\ngather.com\ngatherproxy.com\ngati.org.tw\ngaybubble.com\ngaycn.net\ngayhub.com\ngaymap.cc\ngaymenring.com\ngaytube.com\ngaywatch.com\ngazotube.com\ngcc.org.hk\ngclooney.com\ngclubs.com\ngcmasia.com\ngcpnews.com\ngcr.io\ngdbt.net\ngdzf.org\ngeek-art.net\ngeekerhome.com\ngeekheart.info\ngekikame.com\ngelbooru.com\ngenius.com\ngeocities.co.jp\ngeocities.com\ngeocities.jp\ngeph.io\ngerefoundation.org\nget.app\nget.dev\nget.how\nget.page\ngetastrill.com\ngetchu.com\ngetcloak.com\ngetfoxyproxy.org\ngetfreedur.com\ngetgom.com\ngeti2p.net\ngetiton.com\ngetjetso.com\ngetlantern.org\ngetmalus.com\ngetmdl.io\ngetoutline.org\ngetsocialscope.com\ngetsync.com\ngettr.com\ngettrials.com\ngettyimages.com\ngetuploader.com\ngfbv.de\ngfgold.com.hk\ngfsale.com\ngfw.org.ua\ngfw.press\ngfw.report\nggpht.com\nggssl.com\nghidra-sre.org\nghostpath.com\nghut.org\ngiantessnight.com\ngifree.com\ngiga-web.jp\ngigporno.ru\ngirlbanker.com\ngit.io\ngithub.blog\ngithub.com\ngithub.io\ngithubassets.com\ngithubusercontent.com\ngizlen.net\ngjczz.com\nglass8.eu\nglobal.bing.com\nglobaljihad.net\nglobalmediaoutreach.com\nglobalmuseumoncommunism.org\nglobalrescue.net\nglobaltm.org\nglobalvoices.org\nglobalvoicesonline.org\nglobalvpn.net\nglock.com\ngloryhole.com\nglorystar.me\ngluckman.com\nglype.com\ngmail.com\ngmgard.com\ngmhz.org\ngmll.org\ngmodules.com\ngmozomg.izihost.org\ngnci.org.hk\ngnews.org\ngo-pki.com\ngo.nesnode.com\ngo141.com\ngoagent.biz\ngoagent.codeplex.com\ngoagentplus.com\ngobet.cc\ngodfootsteps.org\ngodns.work\ngodoc.org\ngodsdirectcontact.co.uk\ngodsdirectcontact.org\ngodsdirectcontact.org.tw\ngodsimmediatecontact.com\ngofundme.com\ngogotunnel.com\ngohappy.com.tw\ngojet.krtco.com.tw\ngokbayrak.com\ngolang.org\ngoldbet.com\ngoldbetsports.com\ngolden-ages.org\ngoldeneyevault.com\ngoldenfrog.com\ngoldjizz.com\ngoldstep.net\ngoldwave.com\ngongm.in\ngongmeng.info\ngongminliliang.com\ngongwt.com\ngoo.gl\ngoo.ne.jp\ngooday.xyz\ngooddns.info\ngoodhope.school\ngoodreaders.com\ngoodreads.com\ngoodtv.com.tw\ngoodtv.tv\ngoofind.com\ngoogle.ac\ngoogle.ad\ngoogle.ae\ngoogle.al\ngoogle.am\ngoogle.as\ngoogle.at\ngoogle.az\ngoogle.ba\ngoogle.be\ngoogle.bf\ngoogle.bg\ngoogle.bi\ngoogle.bj\ngoogle.bs\ngoogle.bt\ngoogle.by\ngoogle.ca\ngoogle.cat\ngoogle.cc\ngoogle.cd\ngoogle.cf\ngoogle.cg\ngoogle.ch\ngoogle.ci\ngoogle.cl\ngoogle.cm\ngoogle.cn\ngoogle.co.ao\ngoogle.co.bw\ngoogle.co.ck\ngoogle.co.cr\ngoogle.co.id\ngoogle.co.il\ngoogle.co.in\ngoogle.co.jp\ngoogle.co.ke\ngoogle.co.kr\ngoogle.co.ls\ngoogle.co.ma\ngoogle.co.mz\ngoogle.co.nz\ngoogle.co.th\ngoogle.co.tz\ngoogle.co.ug\ngoogle.co.uk\ngoogle.co.uz\ngoogle.co.ve\ngoogle.co.vi\ngoogle.co.za\ngoogle.co.zm\ngoogle.co.zw\ngoogle.com\ngoogle.com.af\ngoogle.com.ag\ngoogle.com.ai\ngoogle.com.ar\ngoogle.com.au\ngoogle.com.bd\ngoogle.com.bh\ngoogle.com.bn\ngoogle.com.bo\ngoogle.com.br\ngoogle.com.bz\ngoogle.com.co\ngoogle.com.cu\ngoogle.com.cy\ngoogle.com.do\ngoogle.com.ec\ngoogle.com.eg\ngoogle.com.et\ngoogle.com.fj\ngoogle.com.gh\ngoogle.com.gi\ngoogle.com.gt\ngoogle.com.hk\ngoogle.com.iq\ngoogle.com.jm\ngoogle.com.kh\ngoogle.com.kw\ngoogle.com.lb\ngoogle.com.lc\ngoogle.com.ly\ngoogle.com.mm\ngoogle.com.mt\ngoogle.com.mx\ngoogle.com.my\ngoogle.com.na\ngoogle.com.nf\ngoogle.com.ng\ngoogle.com.ni\ngoogle.com.np\ngoogle.com.om\ngoogle.com.pa\ngoogle.com.pe\ngoogle.com.pg\ngoogle.com.ph\ngoogle.com.pk\ngoogle.com.pr\ngoogle.com.py\ngoogle.com.qa\ngoogle.com.sa\ngoogle.com.sb\ngoogle.com.sg\ngoogle.com.sl\ngoogle.com.sv\ngoogle.com.tj\ngoogle.com.tn\ngoogle.com.tr\ngoogle.com.tw\ngoogle.com.ua\ngoogle.com.uy\ngoogle.com.vc\ngoogle.com.vn\ngoogle.cv\ngoogle.cz\ngoogle.de\ngoogle.dev\ngoogle.dj\ngoogle.dk\ngoogle.dm\ngoogle.dz\ngoogle.ee\ngoogle.es\ngoogle.fi\ngoogle.fm\ngoogle.fr\ngoogle.ga\ngoogle.ge\ngoogle.gf\ngoogle.gg\ngoogle.gl\ngoogle.gm\ngoogle.gp\ngoogle.gr\ngoogle.gy\ngoogle.hn\ngoogle.hr\ngoogle.ht\ngoogle.hu\ngoogle.ie\ngoogle.im\ngoogle.io\ngoogle.iq\ngoogle.is\ngoogle.it\ngoogle.je\ngoogle.jo\ngoogle.jp\ngoogle.kg\ngoogle.ki\ngoogle.kz\ngoogle.la\ngoogle.li\ngoogle.lk\ngoogle.lt\ngoogle.lu\ngoogle.lv\ngoogle.md\ngoogle.me\ngoogle.mg\ngoogle.mk\ngoogle.ml\ngoogle.mn\ngoogle.ms\ngoogle.mu\ngoogle.mv\ngoogle.mw\ngoogle.ne\ngoogle.net\ngoogle.ng\ngoogle.nl\ngoogle.no\ngoogle.nr\ngoogle.nu\ngoogle.org\ngoogle.ph\ngoogle.pl\ngoogle.pn\ngoogle.ps\ngoogle.pt\ngoogle.ro\ngoogle.rs\ngoogle.ru\ngoogle.rw\ngoogle.sc\ngoogle.se\ngoogle.sg\ngoogle.sh\ngoogle.si\ngoogle.sk\ngoogle.sm\ngoogle.sn\ngoogle.so\ngoogle.sr\ngoogle.st\ngoogle.td\ngoogle.tg\ngoogle.tk\ngoogle.tl\ngoogle.tm\ngoogle.tn\ngoogle.to\ngoogle.tt\ngoogle.uk\ngoogle.vg\ngoogle.vu\ngoogle.ws\ngoogleapis.cn\ngoogleapis.com\ngoogleapps.com\ngooglearth.com\ngoogleartproject.com\ngoogleblog.com\ngooglebot.com\ngooglechinawebmaster.com\ngooglecode.com\ngooglecommerce.com\ngoogledomains.com\ngoogledrive.com\ngoogleearth.com\ngooglefiber.net\ngooglegroups.com\ngooglehosted.com\ngoogleideas.com\ngoogleinsidesearch.com\ngooglelabs.com\ngooglemail.com\ngooglemashups.com\ngooglepagecreator.com\ngoogleplay.com\ngoogleplus.com\ngooglescholar.comUSA\ngooglesile.com\ngooglesource.com\ngoogleusercontent.com\ngooglevideo.com\ngoogleweblight.com\ngooglezip.net\ngopetition.com\ngoproxing.net\ngoreforum.com\ngoregrish.com\ngospelherald.com\ngot-game.org\ngotdns.ch\ngotgeeks.com\ngotrusted.com\ngotw.ca\ngov.taipei\ngov.tw\ngr8domain.biz\ngr8name.biz\ngrammaly.com\ngrandtrial.org\ngrangorz.org\ngraphis.ne.jp\ngraphql.org\ngravatar.com\ngreasespot.net\ngreat-firewall.com\ngreat-roc.org\ngreatfire.org\ngreatfire.us7.list-manage.com\ngreatfirewall.biz\ngreatfirewallofchina.net\ngreatfirewallofchina.org\ngreatroc.org\ngreatroc.tw\ngreatzhonghua.org\ngreenfieldbookstore.com.hk\ngreenparty.org.tw\ngreenpe"
+          ],
+          "protocol": null
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": [],
+          "domain": [
+            "domain:example-example.com",
+            "domain:example-example2.com"
+          ],
+          "protocol": null
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": [],
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null
+        }
+      ],
+      "enabled": true,
+      "locked": true
+    }
+  ],
+  "enableRoutingAdvanced": true,
+  "coreType": 0,
+  "ignoreGeoUpdateCore": false,
+  "systemProxyExceptions": null
+}
