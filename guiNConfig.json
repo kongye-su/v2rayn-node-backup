@@ -120,6 +120,18 @@
       "remarks": "kingfu.cf 可用",
       "url": "https://free.kingfu.cf/vmess/sub",
       "enabled": false
+    },
+    {
+      "id": "4f124220-f708-43f7-a29b-df5695656db9",
+      "remarks": "leon406 可用 但是太多节点 会卡住 需要转换",
+      "url": "https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/all",
+      "enabled": false
+    },
+    {
+      "id": "97cfd6e3-bd0c-464a-b791-0bf6ac323cdb",
+      "remarks": "leon406 可用 但是太多节点 会卡住 需要转换",
+      "url": "https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/private/all",
+      "enabled": false
     }
   ],
   "uiItem": {
